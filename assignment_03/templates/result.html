@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classification Result</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Classification Result</h2>
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Prediction</th>
+                    <th>Propensity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{ prediction }}</td>
+                    <td>{{ propensity }}</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="text-center mt-4">
+            <a href="/" class="btn btn-secondary">Classify Another</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -78,6 +78,7 @@ target/
 # Data files
 *.zip
 reference/
+bestModel/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -174,3 +175,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Git
+*.DS_Store
