@@ -76,9 +76,11 @@ docs/_build/
 target/
 
 # Data files
-*.zip
+# *.zip
 reference/
 bestModel/
+project/
+data/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -137,6 +139,7 @@ amlenv/
 .env
 .venv
 env/
+env*/
 venv/
 ENV/
 env.bak/
